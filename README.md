@@ -36,7 +36,8 @@ Watermarking is the practice of overlaying one image, often with transparent reg
 In practice the watermark will often be in PNG format (allowing for alpha-transparency) and the target photo in the common JPEG format. Many other formats are also supported by ImageMagick by default.
 
 The basic syntax we are using is:
-```WATERMARK=/usr/bin/watermark
+```
+WATERMARK=/usr/bin/watermark
 $WATERMARK -gravity SouthEast watermark.png input.jpg output.jpg
 ```
 
