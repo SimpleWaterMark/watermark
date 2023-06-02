@@ -20,7 +20,7 @@ if "convert" command is not available, it needs to be installed previously.
 $ whereis convert
 convert: /usr/bin/convert
 ```
-2. Download "watermark" from this repository and put it at the same level of "convert" binary.
+2. Download "watermark" from this repository and put it at the same path of "convert" binary.
 3. To check if "watermark" is working, just execute:
 ```
 watermark --version
